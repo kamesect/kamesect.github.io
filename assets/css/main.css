@@ -2412,14 +2412,14 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 5px;
+		border-radius: 0%;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 5px;
+			border-radius: 0%;
 			display: block;
 		}
 
@@ -3798,7 +3798,7 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
+				border-radius: 0%;
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
@@ -3806,7 +3806,7 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
+					border-radius: 0%;
 					width: 100%;
 				}
 
